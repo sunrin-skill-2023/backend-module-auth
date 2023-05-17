@@ -24,15 +24,18 @@
   "dependencies": {
     "@grpc/grpc-js": "^1.8.14",
     "@grpc/proto-loader": "^0.7.7",
-    "@nestjs/common": "^9.0.0",
+    "@nestjs/common": "^9.4.1",
     "@nestjs/config": "^2.2.0",
-    "@nestjs/core": "^9.0.0",
-    "@nestjs/microservices": "^9.4.0",
+    "@nestjs/core": "^9.4.1",
+    "@nestjs/microservices": "^9.4.1",
     "@nestjs/platform-express": "^9.0.0",
+    "@nestjs/typeorm": "^9.0.1",
+    "mysql": "^2.18.1",
     "nestjs-grpc-reflection": "^0.0.21",
     "reflect-metadata": "^0.1.13",
     "rimraf": "^3.0.2",
-    "rxjs": "^7.2.0"
+    "rxjs": "^7.2.0",
+    "typeorm": "^0.3.16"
   },
   "devDependencies": {
     "@nestjs/cli": "^9.0.0",
